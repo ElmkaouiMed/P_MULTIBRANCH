@@ -1,0 +1,141 @@
+{
+  "seo": {
+    "title": "MultiBranch Rentals — Location de Voitures aux Émirats",
+    "description": "Trouvez les meilleures offres de location de voitures à Dubaï, Abu Dhabi et Sharjah. Plusieurs agences, un nom de confiance. Réservez en ligne avec confirmation WhatsApp instantanée."
+  },
+  "nav": {
+    "home": "Accueil",
+    "cars": "Voir les Voitures",
+    "corporate": "Comptes Entreprise",
+    "locations": "Nos Agences",
+    "about": "À Propos"
+  },
+  "hero": {
+    "badge": "Location Multi-Agence — Émirats",
+    "title": "Où Avez-Vous Besoin d'une Voiture ?",
+    "subtitle": "Choisissez votre agence pour voir les voitures disponibles, les prix et les offres locales. Nous servons Dubaï, Abu Dhabi, Sharjah et plus.",
+    "cta": "Voir les Voitures Disponibles",
+    "browseAll": "Voir Toutes les Agences",
+    "searchPlaceholder": "Rechercher une ville ou une agence...",
+    "selectBranch": "Sélectionner une Agence",
+    "nearby": "Trouver l'Agence la Plus Proche"
+  },
+  "fleet": {
+    "title": "Notre Flotte",
+    "subtitle": "Choisissez parmi notre large sélection de véhicules bien entretenus",
+    "all": "Tous",
+    "economy": "Économique",
+    "sedan": "Berline",
+    "suv": "SUV",
+    "van": "Van",
+    "luxury": "Luxe",
+    "perDay": "/jour",
+    "perWeek": "/semaine",
+    "perMonth": "/mois",
+    "bookNow": "Réserver via WhatsApp",
+    "bookFlow": "Réserver",
+    "noCars": "Aucune voiture disponible dans cette agence. Veuillez sélectionner un autre emplacement.",
+    "seats": "places",
+    "luggage": "bagages",
+    "transmission": "Transmission",
+    "fuelType": "Carburant",
+    "deposit": "Caution",
+    "pricePerDay": "Prix par Jour",
+    "description": "Description",
+    "features": "Équipements",
+    "badge": "Disponible",
+    "viewAll": "Voir Toute la Flotte",
+    "filterByBranch": "Filtrer par Agence",
+    "filterByCategory": "Filtrer par Catégorie",
+    "allBranches": "Toutes les Agences",
+    "showing": "Affichage de",
+    "cars": "voitures"
+  },
+  "locations": {
+    "title": "Nos Agences",
+    "subtitle": "Visitez-nous dans l'une de nos agences situées à travers les Émirats",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "hours": "Horaires",
+    "viewCars": "Voir les Voitures de cette Agence",
+    "getDirections": "Obtenir l'itinéraire",
+    "callNow": "Appeler",
+    "selectBranch": "Choisir cette Agence",
+    "selected": "Sélectionné",
+    "branchPageTitle": "Location de Voitures à {city}",
+    "branchPageDesc": "Louez une voiture à {city} chez {brand}. Consultez notre flotte, nos tarifs et réservez en ligne avec confirmation WhatsApp instantanée."
+  },
+  "branchDetail": {
+    "carsAt": "Voitures Disponibles à {branch}",
+    "noCars": "Aucune voiture actuellement disponible dans cette agence. Veuillez consulter nos autres agences.",
+    "contactBranch": "Contacter Cette Agence",
+    "ourLocation": "Notre Emplacement",
+    "backToBranches": "Toutes les Agences"
+  },
+  "corporate": {
+    "title": "Comptes Entreprise & Flotte",
+    "subtitle": "Solutions adaptées aux entreprises nécessitant plusieurs véhicules",
+    "description": "Nous proposons des solutions de gestion de flotte personnalisées pour les entreprises de toutes tailles. Que vous ayez besoin de locations journalières pour votre équipe ou de contrats de flotte à long terme, notre équipe est là pour vous aider.",
+    "benefits": "Avantages Entreprise",
+    "benefitList": [
+      "Gestionnaire de compte dédié",
+      "Remises volume compétitives",
+      "Facturation flexible",
+      "Réservations prioritaires",
+      "Rapports personnalisés",
+      "Assistance 24h/24 et 7j/7"
+    ],
+    "formTitle": "Demander un Devis Entreprise",
+    "formName": "Nom de l'Entreprise",
+    "formContact": "Personne à Contacter",
+    "formEmail": "Adresse Email",
+    "formPhone": "Numéro de Téléphone",
+    "formFleetSize": "Taille Estimée de la Flotte",
+    "formMessage": "Exigences Supplémentaires",
+    "formSubmit": "Envoyer via WhatsApp",
+    "formSent": "Merci ! Votre demande a été reçue."
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "Approuvé par des milliers de clients à travers les Émirats",
+    "allBranches": "Toutes les Agences"
+  },
+  "findNearest": {
+    "title": "Trouvez une Agence Près de Chez Vous",
+    "subtitle": "Utilisez la carte ci-dessous pour localiser l'agence MultiBranch Rentals la plus proche",
+    "selectOnMap": "Sélectionnez une agence sur la carte pour voir les détails"
+  },
+  "trust": {
+    "badge1": "Plusieurs Agences",
+    "desc1": "Agences pratiques à Dubaï, Abu Dhabi et Sharjah",
+    "badge2": "Meilleur Prix Garanti",
+    "desc2": "Nous égalons tout tarif concurrent légitime",
+    "badge3": "Sans Frais Cachés",
+    "desc3": "Tarification transparente, zéro surprise",
+    "badge4": "Support 24h/24",
+    "desc4": "Assistance routière et service client 24h/24"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de louer",
+    "contactCta": "Encore des questions ? Contactez-nous sur WhatsApp"
+  },
+  "footer": {
+    "tagline": "Votre partenaire de location de voitures de confiance aux Émirats. Plusieurs agences, un seul standard d'excellence.",
+    "quickLinks": "Liens Rapides",
+    "ourBranches": "Nos Agences",
+    "contact": "Contactez-Nous",
+    "followUs": "Suivez-Nous",
+    "rights": "Tous droits réservés.",
+    "home": "Accueil",
+    "cars": "Voitures",
+    "corporate": "Entreprise",
+    "locations": "Agences"
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'Accueil"
+  }
+}

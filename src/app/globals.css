@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --grain-opacity: 0.03;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-ink-200 bg-ink-950 antialiased selection:bg-gold-500/30 selection:text-gold-200;
+  }
+
+  [dir="rtl"] body {
+    font-family: var(--font-arabic), var(--font-body), system-ui, sans-serif;
+  }
+
+  [dir="rtl"] .font-display {
+    font-family: var(--font-arabic), var(--font-display), Georgia, serif;
+  }
+
+  [dir="rtl"] .heading-xl,
+  [dir="rtl"] .heading-lg,
+  [dir="rtl"] .heading-md {
+    font-family: var(--font-arabic), var(--font-display), Georgia, serif;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ink-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ink-600 rounded-none hover:bg-ink-500;
+  }
+}
+
+@layer components {
+  .container-mb {
+    @apply mx-auto max-w-7xl px-5 sm:px-8 lg:px-10;
+  }
+
+  .section-padding {
+    @apply py-20 sm:py-28 lg:py-32;
+  }
+
+  .heading-xl {
+    @apply font-display text-4xl leading-tight tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl;
+  }
+
+  .heading-lg {
+    @apply font-display text-3xl leading-tight tracking-tight sm:text-4xl lg:text-5xl;
+  }
+
+  .heading-md {
+    @apply font-display text-2xl leading-snug tracking-tight sm:text-3xl;
+  }
+
+  .grain-overlay {
+    position: relative;
+  }
+  .grain-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: var(--grain-opacity);
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJmIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjc0IiBudW1PY3RhdmVzPSIzIiAvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbHRlcj0idXJsKCNmKSIgLz48L3N2Zz4=");
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    pointer-events: none;
+    z-index: 1;
+    animation: grain 8s steps(10) infinite;
+  }
+
+  .card-glow {
+    @apply relative overflow-hidden rounded-none border border-ink-700/50 bg-ink-900/80 backdrop-blur-sm transition-all duration-500;
+  }
+  .card-glow::before {
+    content: "";
+    @apply absolute -inset-px rounded-none opacity-0 transition-opacity duration-500;
+    background: linear-gradient(
+      135deg,
+      rgba(235, 110, 74, 0.15),
+      transparent 40%,
+      transparent 60%,
+      rgba(235, 110, 74, 0.05)
+    );
+  }
+  .card-glow:hover::before {
+    @apply opacity-100;
+  }
+  .card-glow:hover {
+    @apply border-ink-600/60 shadow-lg shadow-gold-500/5;
+  }
+
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-coral {
+    @apply bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1px;
+    @apply bg-ink-800;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center font-body font-medium rounded-none transition-all duration-300;
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950;
+    @apply active:scale-[0.97] disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-gold-500 text-ink-950 hover:bg-gold-400 shadow-lg shadow-gold-500/15;
+  }
+
+  .btn-secondary {
+    @apply btn bg-ink-800 text-ink-100 hover:bg-ink-700 border border-ink-600/50;
+  }
+
+  .btn-outline {
+    @apply btn border border-gold-500/30 text-gold-400 hover:bg-gold-500/10 hover:border-gold-400;
+  }
+
+  .btn-ghost {
+    @apply btn text-ink-300 hover:text-ink-100 hover:bg-ink-800;
+  }
+
+  .btn-sm {
+    @apply px-4 py-2 text-xs gap-1.5 tracking-wider uppercase;
+  }
+
+  .btn-md {
+    @apply px-6 py-3 text-sm gap-2 tracking-wide;
+  }
+
+  .btn-lg {
+    @apply px-8 py-4 text-base gap-2.5;
+  }
+
+  .noise-bg {
+    background-color: #0e121b;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIj48ZmlsdGVyIGlkPSJmIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjc1IiBudW1PY3RhdmVzPSI0IiAvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbHRlcj0idXJsKCNmKSIgb3BhY2l0eT0iMC4wNCIgLz48L3N2Zz4=");
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "seo": {
+    "title": "MultiBranch Rentals — Car Rental Across the UAE",
+    "description": "Find the best car rental deals across Dubai, Abu Dhabi, and Sharjah. Multiple branches, one trusted name. Book online with instant WhatsApp confirmation."
+  },
+  "nav": {
+    "home": "Home",
+    "cars": "Browse Cars",
+    "corporate": "Corporate Accounts",
+    "locations": "Our Branches",
+    "about": "About Us"
+  },
+  "hero": {
+    "badge": "Multi-Branch Car Rental — UAE",
+    "title": "Where Do You Need a Car?",
+    "subtitle": "Choose your branch to see available cars, pricing, and local offers. We serve Dubai, Abu Dhabi, Sharjah, and more.",
+    "cta": "Browse Available Cars",
+    "browseAll": "View All Branches",
+    "searchPlaceholder": "Search for a city or branch...",
+    "selectBranch": "Select a Branch",
+    "nearby": "Find Nearest Branch"
+  },
+  "fleet": {
+    "title": "Our Fleet",
+    "subtitle": "Choose from our wide selection of well-maintained vehicles",
+    "all": "All",
+    "economy": "Economy",
+    "sedan": "Sedan",
+    "suv": "SUV",
+    "van": "Van",
+    "luxury": "Luxury",
+    "perDay": "/day",
+    "perWeek": "/week",
+    "perMonth": "/month",
+    "bookNow": "Book via WhatsApp",
+    "bookFlow": "Book Now",
+    "noCars": "No cars available at this branch. Please select a different location.",
+    "seats": "seats",
+    "luggage": "luggage",
+    "transmission": "Transmission",
+    "fuelType": "Fuel",
+    "deposit": "Deposit",
+    "pricePerDay": "Price per Day",
+    "description": "Description",
+    "features": "Features",
+    "badge": "Available Now",
+    "viewAll": "View Full Fleet",
+    "filterByBranch": "Filter by Branch",
+    "filterByCategory": "Filter by Category",
+    "allBranches": "All Branches",
+    "showing": "Showing",
+    "cars": "cars"
+  },
+  "locations": {
+    "title": "Our Branches",
+    "subtitle": "Visit us at any of our conveniently located branches across the UAE",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business Hours",
+    "viewCars": "View Cars at This Branch",
+    "getDirections": "Get Directions",
+    "callNow": "Call Now",
+    "selectBranch": "Select This Branch",
+    "selected": "Selected",
+    "branchPageTitle": "Car Rental in {city}",
+    "branchPageDesc": "Rent a car in {city} from {brand}. View our fleet, pricing, and book online with instant WhatsApp confirmation."
+  },
+  "branchDetail": {
+    "carsAt": "Cars Available at {branch}",
+    "noCars": "No cars currently available at this branch. Please check our other branches.",
+    "contactBranch": "Contact This Branch",
+    "ourLocation": "Our Location",
+    "backToBranches": "All Branches"
+  },
+  "corporate": {
+    "title": "Corporate & Fleet Accounts",
+    "subtitle": "Tailored solutions for businesses requiring multiple vehicles",
+    "description": "We offer customized fleet management solutions for businesses of all sizes. Whether you need daily rentals for your team or long-term fleet contracts, our corporate account team is here to help.",
+    "benefits": "Corporate Benefits",
+    "benefitList": [
+      "Dedicated account manager",
+      "Competitive volume discounts",
+      "Flexible billing and invoicing",
+      "Priority reservations and replacements",
+      "Custom reporting and fleet tracking",
+      "24/7 roadside assistance"
+    ],
+    "formTitle": "Request a Corporate Quote",
+    "formName": "Company Name",
+    "formContact": "Contact Person",
+    "formEmail": "Email Address",
+    "formPhone": "Phone Number",
+    "formFleetSize": "Estimated Fleet Size",
+    "formMessage": "Additional Requirements",
+    "formSubmit": "Send via WhatsApp",
+    "formSent": "Thank you! Your inquiry has been received."
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Trusted by thousands of customers across the UAE",
+    "allBranches": "All Branches"
+  },
+  "findNearest": {
+    "title": "Find a Branch Near You",
+    "subtitle": "Use the map below to locate the nearest MultiBranch Rentals office",
+    "selectOnMap": "Select a branch on the map to view details"
+  },
+  "trust": {
+    "badge1": "Multiple Locations",
+    "desc1": "Convenient branches across Dubai, Abu Dhabi & Sharjah",
+    "badge2": "Best Price Guarantee",
+    "desc2": "We match any legitimate competitor rate",
+    "badge3": "No Hidden Fees",
+    "desc3": "Transparent pricing with zero surprises",
+    "badge4": "24/7 Support",
+    "desc4": "Round-the-clock roadside assistance and support"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know before renting",
+    "contactCta": "Still have questions? Contact us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Your trusted car rental partner across the UAE. Multiple branches, one standard of excellence.",
+    "quickLinks": "Quick Links",
+    "ourBranches": "Our Branches",
+    "contact": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "home": "Home",
+    "cars": "Browse Cars",
+    "corporate": "Corporate Accounts",
+    "locations": "Branches"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  }
+}
