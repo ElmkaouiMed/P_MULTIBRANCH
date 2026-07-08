@@ -5,6 +5,8 @@
   <p>Multiple branches, one standard of excellence.</p>
 </div>
 
+> **[Live Demo](https://multibranch-rental.vercel.app)** — Try it live
+
 ---
 
 ## Features
@@ -31,20 +33,12 @@
 | [next-intl](https://next-intl.dev) | Internationalization |
 | [Lucide](https://lucide.dev) | Icons |
 
-## Screenshots
-
-| English | العربية |
-|--------|---------|
-| Home page | الصفحة الرئيسية |
-
 ## Getting Started
 
 ```bash
 npm install
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
 
 ### Build
 
@@ -90,4 +84,7 @@ Set these in your `.env.local` or Vercel dashboard:
 
 ---
 
-<p align="center">Built with Next.js · © MultiBranch Rentals</p>
+<p align="center">
+  <a href="https://multibranch-rental.vercel.app">Live Demo</a> ·
+  Built with Next.js · © MultiBranch Rentals
+</p>
